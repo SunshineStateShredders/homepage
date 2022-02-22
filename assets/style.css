@@ -71,3 +71,32 @@ body {
 #rei {
     height: 297px;
 }
+
+/* media query */
+
+@media screen and (max-width: 600px) {
+    section {
+     overflow: auto;
+    }
+    
+    img {
+       
+    }
+
+    .shredders {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+
+    .hero-image {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .shred-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
