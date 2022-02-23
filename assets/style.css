@@ -15,6 +15,7 @@ body {
     padding-bottom: 500px;
     opacity: 0.90;
     box-shadow: 0 5px 5px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
 }
 
 .hero-text {
@@ -31,11 +32,11 @@ body {
 .shredders {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    margin-top: 30px;
 }
 
 .shred-img {
-    border-radius: 50%;
+    border-radius: 10%;
     box-shadow: 0 5px 5px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 150px;
     margin-left: auto;
@@ -53,6 +54,7 @@ body {
 
 .shred-section {
     text-align: center;
+    margin-top: 20px;
 }
 
 .logo {
@@ -64,12 +66,43 @@ body {
     display: block;
 }
 
+.squad-pic {
+    border-radius: 10%;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 #omar {
-    height: 323px;
+    height: 300px;
 }
 
 #rei {
-    height: 297px;
+    height: 280px;
+}
+
+.resort-container {
+    background-color: rgb(29, 29, 126);
+}
+
+/* videos page*/
+
+.hero2 {
+    background-image: linear-gradient(0,0,0,0,5), rgba(0,0,0.5), url(/assets/basin.jpg);
+    height: 100%;
+    background-position: center;
+    position: relative;
+    padding-bottom: 250px;
+    opacity: 0.90;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px; 
+} 
+
+.vids {
+    display: flex;
+   flex-wrap: wrap;
 }
 
 /* media query */
@@ -79,9 +112,7 @@ body {
      overflow: auto;
     }
     
-    img {
-       
-    }
+
 
     .shredders {
         display: flex;
